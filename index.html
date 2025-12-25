@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Sahithi Dasaragari | Dynamics 365 Consultant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <h1>Sahithi Dasaragari</h1>
+  <p class="tagline">Microsoft Dynamics 365 CE Consultant | Power Platform | Azure</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="about">
+  <h2>About</h2>
+  <p>5+ years designing enterprise-grade Dynamics 365 Customer Service & Power Platform solutions that cut case-resolution time 35 % and boost agent productivity through intelligent routing and automation.</p>
+  <ul>
+    <li>Location: Jersey City, NJ</li>
+    <li>Email: <a href="mailto:sdasaragari@gmail.com">sdasaragari@gmail.com</a></li>
+    <li>LinkedIn: <a href="https://linkedin.com/in/sahithi1405" target="_blank">linkedin.com/in/sahithi1405</a></li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Core Skills</h2>
+  <div class="grid">
+    <div><h4>D365 CE Modules</h4><ul><li>Customer Service</li><li>Omnichannel</li><li>Unified Routing</li><li>Case Mgmt</li></ul></div>
+    <div><h4>Power Platform</h4><ul><li>Power Apps</li><li>Power Automate</li><li>Dataverse</li><li>Copilot Studio</li></ul></div>
+    <div><h4>Dev & Integration</h4><ul><li>C# Plugins</li><li>JavaScript/TS</li><li>Azure Functions</li><li>REST/OData</li></ul></div>
+    <div><h4>DevOps & Data</h4><ul><li>Azure DevOps</li><li>Git CI/CD</li><li>Power BI</li><li>KingswaySoft</li></ul></div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <article>
+    <h3>CRM Consultant – UnitedHealth Group <span>Mar 2024 – Present</span></h3>
+    <ul>
+      <li>Delivered Claims & Grievance Mgmt solution; cut resolution time 30 %.</li>
+      <li>Configured Omnichannel + Unified Routing; raised distribution accuracy 25 %.</li>
+      <li>Built C# plugins & JavaScript validations; trimmed submission errors 40 %.</li>
+      <li>Automated releases with Azure DevOps; deployment time 4 h → 1 h.</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Graduate IT Analyst – Stevens Institute of Tech <span>May 2023 – Dec 2023</span></h3>
+    <ul>
+      <li>Student Engagement CRM on D365 CE; 10 K+ records synced via Power Automate.</li>
+      <li>Power BI dashboards improved reporting turnaround 50 %.</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Dynamics CRM Developer – Cognizant (Jio) <span>Apr 2020 – Aug 2022</span></h3>
+    <ul>
+      <li>Telecom CRM handling 100 K+ daily transactions.</li>
+      <li>Migrated 2 M+ records with 99.98 % accuracy using KingswaySoft.</li>
+    </ul>
+  </article>
+</section>
+
+<section id="projects">
+  <h2>Key Projects</h2>
+  <article>
+    <h3>Contact Center CRM Modernization</h3>
+    <p>Enterprise D365 Omnichannel deployment with telephony & payment integration. Routing efficiency ↑ 35 %.</p>
+  </article>
+  <article>
+    <h3>Customer Self-Service Portal</h3>
+    <p>Power Apps portal + Dataverse + Power BI dashboards; manual effort ↓ 40 %.</p>
+  </article>
+</section>
+
+<section id="certs">
+  <h2>Certifications</h2>
+  <ul class="certs">
+    <li>Microsoft Power Platform Developer Associate (PL-400)</li>
+    <li>Power Platform Functional Consultant (PL-200)</li>
+    <li>Dynamics 365 Sales (MB-210)</li>
+    <li>Power Platform App Maker (PL-100)</li>
+    <li>D365 Customer Service Functional Consultant (MB-230) – in progress</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Let’s Connect</h2>
+  <div class="social">
+    <a href="mailto:sdasaragari@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/sahithi1405" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/sahithi1405" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</section>
+</main>
+
+<footer>
+  © <span id="year"></span> Sahithi Dasaragari • built with ❤ and GitHub Pages
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+// tiny smooth-scroll
+document.querySelectorAll('nav a').forEach(a=>{
+  a.addEventListener('click', e=>{
+    e.preventDefault();
+    document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+  });
+});
+</script>
+</body>
+</html>
